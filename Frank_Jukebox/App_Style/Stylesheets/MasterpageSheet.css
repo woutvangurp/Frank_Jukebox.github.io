@@ -1,0 +1,28 @@
+﻿body {
+}
+.Vertical-Nav {
+    padding: 5px 0.5vw 0;
+    background-color: black;
+    color: white;
+    width: 7vw;
+    height: 100vh;
+}
+.Content {
+    
+}
+
+.nav-navbar {
+    padding: 0 0.5vw 0;
+    list-style: none;
+/*    padding: 0;
+*/    margin: 0;
+}
+
+.navimg-rec {
+    padding: auto;
+    width: 3vw;
+}
+
+.center {
+    margin: auto;
+}
