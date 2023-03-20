@@ -7,8 +7,8 @@
     width: 7vw;
     height: 100vh;
 }
-.Content {
-    
+.content {
+    padding: 0;
 }
 
 .nav-navbar {
@@ -25,4 +25,12 @@
 
 .center {
     margin: auto;
+}
+
+.header {
+    background-color: blue;
+}
+
+.body-content {
+    padding: 0 !important;
 }
