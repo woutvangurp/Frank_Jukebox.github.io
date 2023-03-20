@@ -1,6 +1,7 @@
 ﻿console.log('js works!');
 setTimeout(() => {
     document.getElementById('contentshitding').style.backgroundColor = '#0ff';
+    document.getElementById('contentshitding').style.transition = '0.3s';
 }, 5);
 
 function test() {
