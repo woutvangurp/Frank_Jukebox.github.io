@@ -227,9 +227,9 @@
       <LastGenOutput>songs.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="songs.dbml.layout">
+    <None Include="songs.dbml.layout">
       <DependentUpon>songs.dbml</DependentUpon>
-    </Content>
+    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
