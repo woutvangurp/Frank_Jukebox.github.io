@@ -1,10 +1,8 @@
 ﻿.content-container {
     background-image: url(../../Images/Frank.jpg);
-    /*width: 100vw;*/
-    height: 100vh;
+    width: 100vw;
     background-position: top;
     background-size: cover;
-    
 }
 .Vertical-Nav {
     padding: 5px 0.5vw 0;
@@ -12,6 +10,7 @@
     color: white;
     width: 7vw;
     height: 100vh;
+    margin-right: 5px;
 }
 .content {
     padding: 0;
@@ -30,7 +29,7 @@
 }
 
 .center {
-    margin: auto;
+    margin-left: 0.1vw;
 }
 
 .body-content {
@@ -39,4 +38,5 @@
 
 .songsview {
     margin: auto;
+    background-color: white;
 }
