@@ -29,7 +29,14 @@ namespace Frank_Jukebox.functions
 
         public List<Table> getSongs()
         {
-            return (from S in Songs.Tables select S).ToList();
+            List<Table> list = (from S in Songs.Tables select S).ToList();
+
+            foreach (var song in list)
+            {
+                
+            }
+
+            return list;
         }
     }
 }
