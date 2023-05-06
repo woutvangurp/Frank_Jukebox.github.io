@@ -110,6 +110,7 @@
     <Content Include="App_Data\songs_log.ldf">
       <DependentUpon>songs.mdf</DependentUpon>
     </Content>
+    <Content Include="Images\Frank.jpg" />
     <Content Include="Images\Record_Icon_Inv.png" />
     <Content Include="Images\Record_Icon.png" />
     <Content Include="App_Pages\Records.aspx" />
@@ -177,6 +178,9 @@
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Databases\songs.cs">
+      <DependentUpon>songs.dbml</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -184,6 +188,7 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="functions\DBFunctions.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -202,7 +207,7 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
-    <Compile Include="songs.designer.cs">
+    <Compile Include="Databases\songs.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>songs.dbml</DependentUpon>
@@ -215,19 +220,17 @@
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Databases\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
-    <Content Include="songs.dbml">
+    <Content Include="Databases\songs.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
       <LastGenOutput>songs.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </Content>
-    <None Include="songs.dbml.layout">
+    <None Include="Databases\songs.dbml.layout">
       <DependentUpon>songs.dbml</DependentUpon>
     </None>
     <None Include="Web.Debug.config">
