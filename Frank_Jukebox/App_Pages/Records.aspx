@@ -1,5 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Records.aspx.cs" Inherits="Frank_Jukebox.App_Pages.Records" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <script src="../Scripts/test/script.js"></script>
+    
+    <asp:Label runat="server" Text=" hallo dit is een test!!!"/>
     <asp:UpdatePanel runat="server">
         <ContentTemplate>
 

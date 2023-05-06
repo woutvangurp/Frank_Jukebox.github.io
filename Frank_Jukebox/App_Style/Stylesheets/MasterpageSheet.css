@@ -32,11 +32,14 @@
     margin-left: 0.1vw;
 }
 
+.header {
+    background-color: blue;
+}
+
 .body-content {
     padding: 0 !important;
 }
 
 .songsview {
     margin: auto;
-    background-color: white;
 }

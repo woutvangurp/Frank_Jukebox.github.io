@@ -1590,7 +1590,7 @@ pre code {
     padding-right: 15px;
     margin-right: auto;
     display: flex;
-   
+    background-color: white;
 }
 @media (min-width: 768px) {
   .container {

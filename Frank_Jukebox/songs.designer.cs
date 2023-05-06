@@ -9,7 +9,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Frank_Jukebox.Databases
+namespace Frank_Jukebox
 {
 	using System.Data.Linq;
 	using System.Data.Linq.Mapping;
@@ -33,11 +33,10 @@ namespace Frank_Jukebox.Databases
     partial void InsertTable(Table instance);
     partial void UpdateTable(Table instance);
     partial void DeleteTable(Table instance);
-        #endregion
-
-        
-        public songsDataContext() : 
-				base(global::System.Configuration.ConfigurationManager.ConnectionStrings["songsConnectionString"].ConnectionString, mappingSource)
+    #endregion
+		
+		public songsDataContext(string connection) : 
+				base(connection, mappingSource)
 		{
 			OnCreated();
 		}
